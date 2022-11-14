@@ -1,5 +1,6 @@
 class Varasto:
     def __init__(self, tilavuus=0.0, alku_saldo = 0):
+        self.tilavuus = tilavuus
         if tilavuus < 0.0:
             self.tilavuus = 0.0
         if alku_saldo < 0.0:
