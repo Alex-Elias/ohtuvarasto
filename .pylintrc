@@ -1,6 +1,7 @@
 [MASTER]
 
 ignore=tests,index.py
+load-plugins=pylint.extensions.mccabe
 
 [MESSAGE CONTROL]
 
